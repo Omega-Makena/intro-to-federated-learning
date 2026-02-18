@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # intro-to-federated-learning
 =======
 # Introduction to Federated Learning with Flower
@@ -326,4 +325,3 @@ This project is open source and available under the MIT License.
 - Flower team for the excellent federated learning framework
 - The machine learning community for advancing federated learning research
 - Credit card fraud detection dataset providers
->>>>>>> copilot/add-introduction-to-federated-learning
