@@ -162,7 +162,7 @@ python src/server.py --local-epochs 10
 
 ### 1. Data Preparation
 
-> **📊 Dataset: Synthetic Data (Default)**
+> ** Dataset: Synthetic Data (Default)**
 >
 > The project uses **synthetic credit card transaction data** by default. No dataset download required!
 
@@ -186,9 +186,9 @@ Round N:
 ```
 
 ### 3. Privacy Preservation
-✅ **Client data never leaves the device**
-✅ **Only model weights are shared**
-✅ **Server never sees raw transactions**
+ **Client data never leaves the device**
+ **Only model weights are shared**
+ **Server never sees raw transactions**
 
 ## Common Issues & Solutions
 
@@ -219,23 +219,23 @@ python src/client.py --client-id 2  # Terminal 4
 ## Next Steps
 
 ### Beginner
-- ✅ Read `README.md` for comprehensive overview
-- ✅ Complete both Jupyter notebooks
-- ✅ Run simulation with default settings
-- ✅ Try different number of rounds (5, 10, 20)
+-  Read `README.md` for comprehensive overview
+-  Complete both Jupyter notebooks
+-  Run simulation with default settings
+-  Try different number of rounds (5, 10, 20)
 
 ### Intermediate
-- 🔸 Download real credit card fraud dataset from Kaggle
-- 🔸 Modify model architecture in `src/model.py`
-- 🔸 Experiment with IID vs Non-IID data splits
-- 🔸 Adjust learning rates and batch sizes
+-  Download real credit card fraud dataset from Kaggle
+-  Modify model architecture in `src/model.py`
+-  Experiment with IID vs Non-IID data splits
+-  Adjust learning rates and batch sizes
 
 ### Advanced
-- 🔹 Implement custom aggregation strategy
-- 🔹 Add differential privacy
-- 🔹 Deploy to multiple machines
-- 🔹 Scale to more clients (10+)
-- 🔹 Implement secure aggregation
+-  Implement custom aggregation strategy
+-  Add differential privacy
+-  Deploy to multiple machines
+-  Scale to more clients (10+)
+-  Implement secure aggregation
 
 ## Project Structure
 ```

@@ -6,9 +6,9 @@ This project uses the following security-patched versions:
 
 | Dependency | Version | Security Status |
 | ---------- | ------- | --------------- |
-| torch      | >=2.6.0 | ✅ Patched      |
-| torchvision| >=0.21.0| ✅ Compatible   |
-| flwr       | 1.6.0   | ✅ Current      |
+| torch      | >=2.6.0 |  Patched      |
+| torchvision| >=0.21.0|  Compatible   |
+| flwr       | 1.6.0   |  Current      |
 
 ## Known Vulnerabilities (Addressed)
 
@@ -19,23 +19,23 @@ The following vulnerabilities existed in PyTorch versions prior to 2.6.0:
 1. **Heap buffer overflow** (CVE pending)
    - Affected: torch < 2.2.0
    - Fixed in: 2.2.0
-   - Status: ✅ Addressed (using >=2.6.0)
+   - Status:  Addressed (using >=2.6.0)
 
 2. **Use-after-free vulnerability** (CVE pending)
    - Affected: torch < 2.2.0
    - Fixed in: 2.2.0
-   - Status: ✅ Addressed (using >=2.6.0)
+   - Status:  Addressed (using >=2.6.0)
 
 3. **Remote code execution via torch.load** (CVE pending)
    - Affected: torch < 2.6.0
    - Fixed in: 2.6.0
-   - Status: ✅ Addressed (using >=2.6.0)
+   - Status:  Addressed (using >=2.6.0)
    - Mitigation: Always use `weights_only=True` when loading models
 
 4. **Deserialization vulnerability** (WITHDRAWN ADVISORY)
    - Affected: torch <= 2.3.1
    - Status: Advisory withdrawn, patched in 2.6.0
-   - Status: ✅ Addressed (using >=2.6.0)
+   - Status:  Addressed (using >=2.6.0)
 
 ## Security Best Practices
 
@@ -120,4 +120,4 @@ For security concerns, please contact the repository maintainers.
 ---
 
 **Last Updated**: 2026-02-17  
-**Status**: ✅ All known vulnerabilities addressed
+**Status**:  All known vulnerabilities addressed

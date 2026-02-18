@@ -48,10 +48,10 @@ Time,V1,V2,V3,...,V28,Amount,Class
 ## Data Privacy in Federated Learning
 
 In our federated learning implementation:
-- ✅ Each client keeps its local data in this directory
-- ✅ Data **never** leaves the client's device
-- ✅ Only model updates (weights/gradients) are sent to the server
-- ✅ The server never sees the raw transaction data
+-  Each client keeps its local data in this directory
+-  Data **never** leaves the client's device
+-  Only model updates (weights/gradients) are sent to the server
+-  The server never sees the raw transaction data
 
 This approach maintains privacy while enabling collaborative model training!
 

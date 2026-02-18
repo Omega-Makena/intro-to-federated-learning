@@ -262,4 +262,4 @@ if __name__ == "__main__":
     print(f"Probabilities shape: {probabilities.shape}")
     print(f"Sample probabilities:\n{probabilities[:5]}")
     
-    print("\n✓ Model test completed successfully!")
+    print("\n Model test completed successfully!")

@@ -75,11 +75,11 @@ def test_federated_learning():
         client_1 = client_fn("1")
         
         print("\n5. Clients created successfully!")
-        print("   ✓ Client 0 ready")
-        print("   ✓ Client 1 ready")
+        print("    Client 0 ready")
+        print("    Client 1 ready")
         
         print("\n" + "="*60)
-        print("✓ Integration test PASSED")
+        print(" Integration test PASSED")
         print("="*60)
         print("\nFederated learning components are working correctly!")
         print("\nTo run the full federated learning:")
@@ -91,7 +91,7 @@ def test_federated_learning():
         return 0
         
     except Exception as e:
-        print(f"\n✗ Client creation failed: {e}")
+        print(f"\n Client creation failed: {e}")
         import traceback
         traceback.print_exc()
         return 1

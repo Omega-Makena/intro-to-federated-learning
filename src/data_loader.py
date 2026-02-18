@@ -315,4 +315,4 @@ if __name__ == "__main__":
     class_weights = get_class_weights(y_train)
     print(f"   Class weights: {class_weights}")
     
-    print("\n✓ Data loading test completed successfully!")
+    print("\n Data loading test completed successfully!")

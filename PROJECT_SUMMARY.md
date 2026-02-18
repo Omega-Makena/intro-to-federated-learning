@@ -4,11 +4,11 @@
 
 This repository provides a **complete, educational introduction to Federated Learning** using the Flower framework, with a practical credit card fraud detection example built with PyTorch.
 
-> **📊 Dataset**: Uses **synthetic credit card transaction data by default** (no download required). Real Kaggle dataset is optional. See [DATASET.md](DATASET.md) for details.
+> ** Dataset**: Uses **synthetic credit card transaction data by default** (no download required). Real Kaggle dataset is optional. See [DATASET.md](DATASET.md) for details.
 
 ## What's Been Implemented
 
-### 📚 Comprehensive Documentation
+###  Comprehensive Documentation
 
 1. **README.md** - Main documentation covering:
    - What is Federated Learning?
@@ -58,7 +58,7 @@ This repository provides a **complete, educational introduction to Federated Lea
    - Testing requirements
    - PR process
 
-### 💻 Complete Implementation
+###  Complete Implementation
 
 #### Core Components
 
@@ -123,7 +123,7 @@ This repository provides a **complete, educational introduction to Federated Lea
    - Client creation verification
    - Ready for manual server/client testing
 
-### 📓 Interactive Notebooks
+###  Interactive Notebooks
 
 9. **notebooks/00_pytorch_basics.ipynb** (NEW):
    - PyTorch fundamentals for federated learning
@@ -153,67 +153,67 @@ This repository provides a **complete, educational introduction to Federated Lea
     - Privacy and security discussion
     - Real-world deployment guide
 
-### 📁 Project Structure
+###  Project Structure
 
 ```
 intro-to-federated-learning/
-├── README.md                          ✅ Complete
-├── QUICKSTART.md                      ✅ Complete
-├── CONTRIBUTING.md                    ✅ Complete
-├── LICENSE                            ✅ MIT License
-├── requirements.txt                   ✅ All dependencies
-├── run_federated_learning.sh         ✅ Demo script
-├── test_setup.py                      ✅ Verification
-├── test_integration.py                ✅ Integration test
-├── .gitignore                         ✅ Proper ignores
+├── README.md                           Complete
+├── QUICKSTART.md                       Complete
+├── CONTRIBUTING.md                     Complete
+├── LICENSE                             MIT License
+├── requirements.txt                    All dependencies
+├── run_federated_learning.sh          Demo script
+├── test_setup.py                       Verification
+├── test_integration.py                 Integration test
+├── .gitignore                          Proper ignores
 │
 ├── docs/
-│   ├── FLOWER_BASICS.md              ✅ Comprehensive
-│   └── FEDERATED_LEARNING_CONCEPTS.md ✅ In-depth
+│   ├── FLOWER_BASICS.md               Comprehensive
+│   └── FEDERATED_LEARNING_CONCEPTS.md  In-depth
 │
 ├── notebooks/
-│   ├── 01_flower_basics.ipynb        ✅ Interactive
-│   └── 02_federated_learning_demo.ipynb ✅ Complete demo
+│   ├── 01_flower_basics.ipynb         Interactive
+│   └── 02_federated_learning_demo.ipynb  Complete demo
 │
 ├── src/
-│   ├── __init__.py                   ✅ Package init
-│   ├── server.py                     ✅ FL server
-│   ├── client.py                     ✅ FL client
-│   ├── model.py                      ✅ PyTorch model
-│   ├── data_loader.py                ✅ Data utilities
-│   └── utils.py                      ✅ Helpers
+│   ├── __init__.py                    Package init
+│   ├── server.py                      FL server
+│   ├── client.py                      FL client
+│   ├── model.py                       PyTorch model
+│   ├── data_loader.py                 Data utilities
+│   └── utils.py                       Helpers
 │
 └── data/
-    └── README.md                     ✅ Dataset info
+    └── README.md                      Dataset info
 ```
 
 ## Key Features
 
-### ✅ Educational
+###  Educational
 - Comprehensive explanations of federated learning concepts
 - Step-by-step tutorials
 - Interactive Jupyter notebooks
 - Clear documentation
 
-### ✅ Practical
+###  Practical
 - Working credit fraud detection example
 - Real-world use case
 - Production-ready code structure
 - Handles class imbalance
 
-### ✅ Complete
+###  Complete
 - Server and client implementation
 - Data loading and preprocessing
 - Model training and evaluation
 - Metrics and visualization
 
-### ✅ Flexible
+###  Flexible
 - IID and Non-IID data splits
 - Configurable hyperparameters
 - Multiple ways to run (script, manual, notebooks)
 - Easy to extend
 
-### ✅ Well-Tested
+###  Well-Tested
 - Unit tests for components
 - Integration tests
 - Setup verification
@@ -243,55 +243,55 @@ intro-to-federated-learning/
 ## Technical Highlights
 
 ### Privacy Preservation
-- ✅ Data never leaves clients
-- ✅ Only model updates shared
-- ✅ Server never sees raw data
-- ✅ Complies with regulations
+-  Data never leaves clients
+-  Only model updates shared
+-  Server never sees raw data
+-  Complies with regulations
 
 ### Handling Challenges
-- ✅ Class imbalance (weighted loss, sampling)
-- ✅ Non-IID data (FedAvg aggregation)
-- ✅ Scalability (3+ clients supported)
-- ✅ Evaluation (precision, recall, F1)
+-  Class imbalance (weighted loss, sampling)
+-  Non-IID data (FedAvg aggregation)
+-  Scalability (3+ clients supported)
+-  Evaluation (precision, recall, F1)
 
 ### Best Practices
-- ✅ Clean code structure
-- ✅ Comprehensive documentation
-- ✅ Error handling
-- ✅ Type hints where appropriate
-- ✅ Logging and monitoring
+-  Clean code structure
+-  Comprehensive documentation
+-  Error handling
+-  Type hints where appropriate
+-  Logging and monitoring
 
 ## Testing Status
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Model | ✅ Tested | All tests pass |
-| Data Loader | ✅ Tested | IID and Non-IID work |
-| Client | ✅ Tested | Creation successful |
-| Server | ✅ Ready | Configured properly |
-| Integration | ✅ Verified | Components work together |
-| Documentation | ✅ Complete | All docs written |
-| Notebooks | ✅ Complete | Both notebooks done |
+| Model |  Tested | All tests pass |
+| Data Loader |  Tested | IID and Non-IID work |
+| Client |  Tested | Creation successful |
+| Server |  Ready | Configured properly |
+| Integration |  Verified | Components work together |
+| Documentation |  Complete | All docs written |
+| Notebooks |  Complete | Both notebooks done |
 
 ## What Users Can Do
 
 ### Immediate Use
-1. ✅ Learn federated learning basics
-2. ✅ Understand Flower framework
-3. ✅ Run credit fraud detection demo
-4. ✅ Experiment with configurations
+1.  Learn federated learning basics
+2.  Understand Flower framework
+3.  Run credit fraud detection demo
+4.  Experiment with configurations
 
 ### Learning Path
-1. ✅ Read documentation
-2. ✅ Complete notebooks
-3. ✅ Run simulation
-4. ✅ Modify and extend
+1.  Read documentation
+2.  Complete notebooks
+3.  Run simulation
+4.  Modify and extend
 
 ### Real-World Application
-1. ✅ Use as template for projects
-2. ✅ Adapt to different datasets
-3. ✅ Deploy to production
-4. ✅ Build on the foundation
+1.  Use as template for projects
+2.  Adapt to different datasets
+3.  Deploy to production
+4.  Build on the foundation
 
 ## Dependencies
 
@@ -308,20 +308,20 @@ All dependencies properly specified in `requirements.txt`:
 ## Validation
 
 ### What Works
-✅ Model creation and training
-✅ Data loading and preprocessing
-✅ Client-server communication
-✅ Federated averaging
-✅ Metrics aggregation
-✅ Class imbalance handling
-✅ IID and Non-IID splits
+ Model creation and training
+ Data loading and preprocessing
+ Client-server communication
+ Federated averaging
+ Metrics aggregation
+ Class imbalance handling
+ IID and Non-IID splits
 
 ### Tested Scenarios
-✅ Single machine simulation
-✅ Multiple clients (3+)
-✅ Multiple rounds (10+)
-✅ Synthetic data generation
-✅ Model evaluation
+ Single machine simulation
+ Multiple clients (3+)
+ Multiple rounds (10+)
+ Synthetic data generation
+ Model evaluation
 
 ## Next Steps for Users
 
@@ -345,13 +345,13 @@ All dependencies properly specified in `requirements.txt`:
 
 This repository provides a **complete, production-ready introduction to federated learning** with:
 
-- ✅ Comprehensive documentation (5 detailed guides)
-- ✅ Complete implementation (server, client, model, data)
-- ✅ Interactive notebooks (2 full tutorials)
-- ✅ Working examples (credit fraud detection)
-- ✅ Testing suite (setup, integration)
-- ✅ Easy deployment (automated script)
-- ✅ Educational content (concepts, best practices)
+-  Comprehensive documentation (5 detailed guides)
+-  Complete implementation (server, client, model, data)
+-  Interactive notebooks (2 full tutorials)
+-  Working examples (credit fraud detection)
+-  Testing suite (setup, integration)
+-  Easy deployment (automated script)
+-  Educational content (concepts, best practices)
 
 **Everything needed to learn, understand, and implement federated learning is included and working!**
 
@@ -364,7 +364,7 @@ This repository provides a **complete, production-ready introduction to federate
 - **Documentation**: ~15,000+ words
 - **Examples**: 2 Jupyter notebooks
 - **Tests**: 2 test suites
-- **Ready to Use**: Yes ✅
+- **Ready to Use**: Yes 
 
 ## License
 

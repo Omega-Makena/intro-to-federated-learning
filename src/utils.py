@@ -161,4 +161,4 @@ if __name__ == "__main__":
     # Test timestamp
     print(f"Current timestamp: {get_timestamp()}")
     
-    print("\n✓ Utility functions test completed!")
+    print("\n Utility functions test completed!")

@@ -570,17 +570,17 @@ Encrypt(a) + Encrypt(b) = Encrypt(a + b)
 ### 1. Identify if FL is Right for Your Use Case
 
 **FL is a good fit if:**
-- ✅ Data is privacy-sensitive
-- ✅ Data is distributed across multiple parties
-- ✅ Centralized data collection is difficult/impossible
-- ✅ Regulatory constraints prevent data sharing
-- ✅ You have sufficient data at each location
+-  Data is privacy-sensitive
+-  Data is distributed across multiple parties
+-  Centralized data collection is difficult/impossible
+-  Regulatory constraints prevent data sharing
+-  You have sufficient data at each location
 
 **FL may not be suitable if:**
-- ❌ You can easily centralize data
-- ❌ Individual datasets are very small
-- ❌ Communication is extremely limited
-- ❌ You need real-time inference at the server
+-  You can easily centralize data
+-  Individual datasets are very small
+-  Communication is extremely limited
+-  You need real-time inference at the server
 
 ### 2. Choose a Framework
 

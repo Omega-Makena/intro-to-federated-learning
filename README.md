@@ -5,9 +5,9 @@
 
 A comprehensive introduction to Federated Learning using the Flower framework, featuring a practical credit card fraud detection example with PyTorch.
 
-> **🔒 Security Note**: This project uses PyTorch >=2.6.0 to address known security vulnerabilities. See [SECURITY.md](SECURITY.md) for details.
+> ** Security Note**: This project uses PyTorch >=2.6.0 to address known security vulnerabilities. See [SECURITY.md](SECURITY.md) for details.
 >
-> **📊 Dataset Note**: This project uses synthetic credit card data by default (no download required). See [DATASET.md](DATASET.md) for complete information about the dataset.
+> ** Dataset Note**: This project uses synthetic credit card data by default (no download required). See [DATASET.md](DATASET.md) for complete information about the dataset.
 
 ## Table of Contents
 - [What is Federated Learning?](#what-is-federated-learning)
@@ -210,7 +210,7 @@ This project demonstrates federated learning with a **credit card fraud detectio
 
 ### Dataset
 
-> **📊 Dataset Used: Synthetic Data (Default)**
+> ** Dataset Used: Synthetic Data (Default)**
 > 
 > **By default, this project uses synthetic credit card transaction data** that mimics the structure and characteristics of real fraud detection datasets. This allows you to:
 > - Run the example immediately without downloading large datasets
@@ -219,7 +219,7 @@ This project demonstrates federated learning with a **credit card fraud detectio
 >
 > The synthetic data has the same structure as the real dataset (30 features, ~0.2% fraud rate).
 
-#### Option 1: Synthetic Data (Current Default) ✅
+#### Option 1: Synthetic Data (Current Default) 
 
 The implementation automatically generates synthetic credit card transactions with:
 - 10,000 transactions (configurable)

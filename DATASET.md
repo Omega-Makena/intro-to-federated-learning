@@ -7,10 +7,10 @@
 ### Why Synthetic Data?
 
 The synthetic data approach allows you to:
-- ✅ **Run immediately** - No dataset download required
-- ✅ **Learn quickly** - Get started in minutes
-- ✅ **Experiment freely** - No storage or bandwidth concerns
-- ✅ **Understand concepts** - Focus on federated learning, not data preparation
+-  **Run immediately** - No dataset download required
+-  **Learn quickly** - Get started in minutes
+-  **Experiment freely** - No storage or bandwidth concerns
+-  **Understand concepts** - Focus on federated learning, not data preparation
 
 ### Synthetic Data Characteristics
 
@@ -114,28 +114,28 @@ def create_synthetic_data(n_samples=10000, n_features=30, fraud_ratio=0.002, ran
 ## Which Should You Use?
 
 ### Use Synthetic Data (Default) When:
-- ✅ Learning federated learning concepts
-- ✅ Testing the implementation quickly
-- ✅ Developing new features
-- ✅ Running demos or tutorials
-- ✅ You don't have access to Kaggle
-- ✅ You want zero setup time
+-  Learning federated learning concepts
+-  Testing the implementation quickly
+-  Developing new features
+-  Running demos or tutorials
+-  You don't have access to Kaggle
+-  You want zero setup time
 
 ### Use Real Dataset When:
-- 📊 Publishing research results
-- 📊 Comparing with other papers
-- 📊 Benchmarking performance
-- 📊 Validating on real-world data patterns
-- 📊 Production deployment preparation
+-  Publishing research results
+-  Comparing with other papers
+-  Benchmarking performance
+-  Validating on real-world data patterns
+-  Production deployment preparation
 
 ## Data Privacy in Federated Learning
 
 Regardless of which dataset you use (synthetic or real):
 
-✅ **Data stays local** - Each client keeps its own data
-✅ **Privacy preserved** - Only model updates are shared
-✅ **Server doesn't see data** - Raw transactions never leave clients
-✅ **Compliant** - Meets privacy regulations (GDPR, etc.)
+ **Data stays local** - Each client keeps its own data
+ **Privacy preserved** - Only model updates are shared
+ **Server doesn't see data** - Raw transactions never leave clients
+ **Compliant** - Meets privacy regulations (GDPR, etc.)
 
 This is the core benefit of federated learning!
 
@@ -159,6 +159,6 @@ This is the core benefit of federated learning!
 
 ## Summary
 
-🎯 **Quick Answer**: This project uses **synthetic credit card transaction data by default**. You can optionally use the real Kaggle dataset if you want to work with actual fraud detection data.
+ **Quick Answer**: This project uses **synthetic credit card transaction data by default**. You can optionally use the real Kaggle dataset if you want to work with actual fraud detection data.
 
-📖 **For More Details**: See [`data/README.md`](data/README.md)
+ **For More Details**: See [`data/README.md`](data/README.md)

@@ -344,4 +344,4 @@ Your contributions help make federated learning more accessible to everyone. Tha
 
 ---
 
-**Happy Contributing! 🎉**
+**Happy Contributing! **
